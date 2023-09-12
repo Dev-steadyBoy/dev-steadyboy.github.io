@@ -12,3 +12,9 @@ document.addEventListener('scroll', () => {
     arrowBtn.style.opacity = 0;
   }
 });
+
+// header 섹션의 스크롤링으로 인한 투명도 조절
+
+document.addEventListener('scroll', () => {
+  header.style.opacity = 1 - window.scrollY / headerHeight;
+});
