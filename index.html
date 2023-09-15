@@ -45,6 +45,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- JS -->
     <script src="src/main.js" type="module"></script>
+    <!-- <script src="src/active_menu.js" type="module"></script> -->
   </head>
 
   <body>
@@ -126,25 +127,29 @@
               <h3 class="index__nav--subtitle">About me</h3>
               <div class="index--description">
                 <span class="dots--decoration"></span>
-                <span class="index__name">저에 대해서 소개드립니다!</span>
+                <span class="index__name about navIdx-focus"
+                  >저에 대해서 소개드립니다!</span
+                >
               </div>
             </li>
             <li class="index__nav--box">
               <h3 class="index__nav--subtitle">Skills</h3>
               <div>
                 <span class="dots--decoration"></span>
-                <span class="index__name">경험해 본 기술들</span>
+                <span class="index__name skills">경험해 본 기술들</span>
               </div>
             </li>
             <li class="index__nav--box">
               <h3 class="index__nav--subtitle">Projects</h3>
               <div class="index--description">
                 <span class="dots--decoration"></span>
-                <span class="index__name">오픈 API를 이용한 미니 프로젝트</span>
+                <span class="index__name projects"
+                  >오픈 API를 이용한 미니 프로젝트</span
+                >
               </div>
               <div>
                 <span class="dots--decoration"></span>
-                <span class="index__name"
+                <span class="index__name projects"
                   >바닐라 자바스크립트로 만든 미니게임 프로젝트</span
                 >
               </div>
@@ -153,26 +158,39 @@
               <h3 class="index__nav--subtitle">Study</h3>
               <div class="index--description">
                 <span class="dots--decoration"></span>
-                <span class="index__name">프론트엔드 취준 스터디</span>
+                <span class="index__name study">프론트엔드 취준 스터디</span>
               </div>
               <div>
                 <span class="dots--decoration"></span>
-                <span class="index__name">개발과 관련된 컨텐츠 스터디</span>
+                <span class="index__name study"
+                  >개발과 관련된 컨텐츠 스터디</span
+                >
+              </div>
+            </li>
+            <li class="index__nav--box">
+              <h3 class="index__nav--subtitle">Share</h3>
+              <div class="index--description">
+                <span class="dots--decoration"></span>
+                <span class="index__name share">네이버 블로그</span>
+              </div>
+              <div>
+                <span class="dots--decoration"></span>
+                <span class="index__name share">깃허브</span>
               </div>
             </li>
             <li class="index__nav--box">
               <h3 class="index__nav--subtitle">Other intersting</h3>
               <div class="index--description">
                 <span class="dots--decoration"></span>
-                <span class="index__name">독서</span>
+                <span class="index__name other">독서</span>
               </div>
               <div class="index--description">
                 <span class="dots--decoration"></span>
-                <span class="index__name">피아노 연주</span>
+                <span class="index__name other">피아노 연주</span>
               </div>
               <div>
                 <span class="dots--decoration"></span>
-                <span class="index__name">런닝</span>
+                <span class="index__name other">런닝</span>
               </div>
             </li>
           </ul>
@@ -181,7 +199,7 @@
 
       <!-- profile -->
       <article id="body__content">
-        <section id="about" class="section">
+        <section id="about" class="section fade-class">
           <h2 class="body__title">
             About Me
             <div class="title--underline"></div>
@@ -232,7 +250,7 @@
         </section>
 
         <!-- Skills -->
-        <section id="skills" class="section">
+        <section id="skills" class="section fade-class">
           <h2 class="body__title">Skills & Experience</h2>
           <!-- 페이드 인 페이드 아웃 속성 넣기 -->
           <div class="skills__logo">
@@ -270,7 +288,7 @@
         </section>
 
         <!-- projects -->
-        <section id="projects" class="section">
+        <section id="projects" class="section fade-class">
           <article>
             <div>
               <h2 class="body__title">
@@ -350,7 +368,7 @@
         </section>
 
         <!-- Study -->
-        <section id="study" class="section">
+        <section id="study" class="section fade-class">
           <article>
             <div>
               <h2 class="body__title">
@@ -420,7 +438,7 @@
         </section>
 
         <!-- Share -->
-        <section id="share" class="section">
+        <section id="share" class="section fade-class">
           <article>
             <div>
               <h2 class="body__title">
@@ -480,7 +498,7 @@
         </section>
 
         <!-- Others -->
-        <section id="other" class="section">
+        <section id="other" class="section fade-class">
           <article>
             <div>
               <h2 class="body__title">
