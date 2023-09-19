@@ -40,12 +40,15 @@
       src="https://kit.fontawesome.com/6a9a88bb18.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- JS -->
     <script src="src/main.js" type="module"></script>
-    <!-- <script src="src/active_menu.js" type="module"></script> -->
+    <script src="src/active_menu.js" type="module"></script>
+    <script src="src/type.js" type="module"></script>
   </head>
 
   <body>
@@ -105,11 +108,14 @@
         <div class="header__intro">
           <h1 class="header__intro--head">원종건 포트폴리오</h1>
           <span>걷지 않는 것을 긍지로 여기자.</span>
-          <p class="header__intro--data">
+          <p
+            class="header__intro--data"
+            aria-label="I am a junior developer who likes to grow. nice to meet you!"
+          >
             안녕하세요.<br />
             매일 성장일기를 작성하고, 성장했을 때 느끼는 보람과 즐거움을
             좋아합니다. <br />
-            프론트엔드 개발자를 희망하는 원종건입니다.🌱
+            개발자를 희망하는 원종건입니다.🌱
           </p>
         </div>
       </div>
